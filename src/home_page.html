@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Home</title>
+</head>
+
+<body>
+    <form action="/timestamp" method="GET" target="_blank">
+        <input type="submit" value="Get timestamp" />
+    </form>
+    <br>
+    <form action="/registrations" method="POST">
+        Username: <input type="text" name="username" />
+        <br>
+        Displayname: <input type="text" name="displayed_name" />
+        <br>
+        Password: <input type="password" name="password" />
+        <br>
+        <input type="submit" value="Register" />
+    </form>
+    <br>
+    <form action="/registrations" method="GET" target="_blank">
+        <input type="submit" value="Get user list">
+    </form>
+</body>
+
+</html>
